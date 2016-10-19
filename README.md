@@ -11,12 +11,12 @@ TIN Úloha 4 - X/5
 VIN Výtvarná dielna - X/50  
 VIN Semestrálny projekt - X/50  
 
-2 MBI - Prvý semester
+2 MBI - Druhý semester
 ------
 
-3 MBI - Prvý semester
+3 MBI - Tretí semester
 ------
 
-4 MBI - Prvý semester
+4 MBI - Štvrtý semester
 ------
 
