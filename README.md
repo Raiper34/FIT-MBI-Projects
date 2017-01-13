@@ -2,14 +2,14 @@
 
 1 MBI - Prvý semester
 ------
-BIO Rozpoznávanie duhovky  - X/18  
-PDB Priestorové, muldimediálne a temporálne databáze - X/20  
-TIN Úloha 1 - X/5  
-TIN Úloha 2 - X/5  
-TIN Úloha 3 - X/5  
-TIN Úloha 4 - X/5  
-VIN Výtvarná dielna - X/50  
-VIN Semestrálny projekt - X/50  
+BIO Rozpoznávanie duhovky  - 16/18  
+PDB Priestorové, muldimediálne a temporálne databáze - 20/20  
+TIN Úloha 1 - 4,8/5  
+TIN Úloha 2 - 3,6/5  
+TIN Úloha 3 - 2,5/5  
+TIN Úloha 4 - 2/5  
+VIN Výtvarná dielna - 50/50  
+VIN Semestrálny projekt - 35/50  
 
 2 MBI - Druhý semester
 ------
