@@ -1,0 +1,17 @@
+Pouitı nástroj: Algorithm Ink
+----------------
+Názov diela: Three meduses
+------------
+Autor: Filip Gulán
+------
+Kontakt: xgulan00@stud.fit.vutbr.cz
+--------
+Interpretácia: 
+Dielo zobrazuje 3 medúzy v hlbokom oceáne, 
+ktoré boli vygenerované pomocou bezkontextovej 
+gramatiky. V hlave som mal myšlienku o troch opiciach,
+preto sú medúzy tri, ale iná spojitos okrem kvantity 
+neexistuje (sám neviem preèo práve tri opice). Vznikli 
+teda 3 medúzy, ktoré sa chví¾kami podobajú aj na elektrické
+vıboje (aspoò ja si ich v mysli tak vizualizujem).
+--------------

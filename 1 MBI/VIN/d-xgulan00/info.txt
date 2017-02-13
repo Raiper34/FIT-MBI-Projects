@@ -1,0 +1,14 @@
+Použitý nástroj: Desmos
+----------------
+Názov diela: Endless corridor
+------------
+Autor: Filip Gulán
+------
+Kontakt: xgulan00@stud.fit.vutbr.cz
+--------
+Interpretácia: 
+Dielo vzniklo ako experiment s použitím matematických rovníc
+v internetovej kalkulaèke Desmos.Na vzniku tohoto diela sa 
+podie¾ajú iba sinusovki a samotnédielo predstavuje nikdy 
+nekonèiacu chodbu.
+--------------

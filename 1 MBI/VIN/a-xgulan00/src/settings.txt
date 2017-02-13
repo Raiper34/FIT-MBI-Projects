@@ -1,0 +1,9 @@
+version: textorizer 2
+opacity: 154
+text_size: 16.2
+line_height: 0.8
+saturation: 241
+kerning: 0.05
+font_scale: 1.2
+font: Abadi MT Condensed Extra Bold
+text: ' loneliness, contempt, anxiety, helplessness, fear, worry, envy, deprivation, overthinking, addiction, loss, depression, phobias, self-esteem, anger, crash, death, thoughts, pain, self-harm'

@@ -1,0 +1,39 @@
+startshape START
+background { hue 600 sat 0.2 b -0.9 }
+
+rule START{
+SCENE{ s .009 }
+}
+
+rule SCENE {
+OCTO { h 900 sat 1 b .5 }
+BUBLE {h 200 sat 1 b .5}
+OCTO { x 200 h 900 sat 1 b .5 }
+BUBLE {x 200 h 200 sat 1 b .5 r -30}
+OCTO { x -200 h 900 sat 1 b .5 }
+BUBLE { x -200 h 200 sat 1 b .5 r 30}
+}
+
+rule OCTO {
+CIRCLE {  size 20 }
+CIRCLE {  size 30 alpha -0.7 }
+CIRCLE {  size 40 alpha -0.4 }
+FLOW { flip -10 }
+FLOW { flip -10 }
+FLOW { flip -80 }
+FLOW { flip -80 }
+FLOW { flip -30 }
+FLOW { flip -30 }
+}
+rule FLOW 0.005 {
+CIRCLE { s 5 alpha -0.6 }
+FLOW { x 1 s 0.995 r -1.5}
+}
+rule FLOW 0.0001 {
+FLOW { flip 20 }
+}
+
+rule BUBLE{
+CIRCLE { s 10 y 10  flip 2}
+BUBLE {y 50 r 88  s 0.59 alpha -0.15}
+}
