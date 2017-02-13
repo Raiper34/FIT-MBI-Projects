@@ -2,8 +2,8 @@
 
 1 MBI - Prvý semester
 ------
-BIO Rozpoznávanie duhovky  - 16/18  
-PDB Priestorové, muldimediálne a temporálne databáze - 20/20  
+BIO Rozpoznávanie duhovky https://github.com/Raiper34/BIO-Iris-Recognition  
+PDB Priestorové, multimediálne a temporálne databáze https://github.com/Raiper34/PDB-Land-Management  
 TIN Úloha 1 - 4,8/5  
 TIN Úloha 2 - 3,6/5  
 TIN Úloha 3 - 2,5/5  
