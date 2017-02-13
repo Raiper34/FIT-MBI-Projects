@@ -9,7 +9,7 @@ TIN Úloha 2 - 3,6/5
 TIN Úloha 3 - 2,5/5  
 TIN Úloha 4 - 2/5  
 VIN Výtvarná dielna - 50/50  
-VIN Semestrálny projekt - 35/50  
+VIN Semestrálny projekt https://github.com/Raiper34/VIN-CelulArt    
 
 2 MBI - Druhý semester
 ------
