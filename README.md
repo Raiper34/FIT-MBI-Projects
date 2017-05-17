@@ -17,7 +17,7 @@ BIF Riešenie prekryvov sekvenčných oblastí - 13/14
 BIN/EVO Umenie v celulárnych automatoch - 25/25 a 23/23  
 PRL Projekt 1 Enumeration sort - 10/10  
 PRL Projekt 2 Mesh Multiplication - 10/10  
-AEU Prezentácia 30/30  
+AEU Prezentácia - 30/30  
 ARC Projekt 1 Programovanie s OpenMP - 10/10  
 ARC Projekt 2 Programovanie s MPI - 13/20  
 KKO Konverzia obrazového formátu GIF na BMP - 29/30
