@@ -1,0 +1,17 @@
+1.
+Sekvenčný I/O je vhodný pre malé domény s malým počtom procesov, naopak pararelný I/O sa hodí pre simulácie s veľkým počtom procesov a pre veľké domény.
+
+2.
+lfs setstripe -s 1M -c 16 /scratch/temp/$USER
+
+3. -
+
+
+Poznámka k implementácií:
+-------------------------
+V projekte sú vypracované nasledujúce veci: rozdelenie domény medzi procesy (pomocou Scaterv)
+a zozbieranie pred zápisom (Gatherv), predávanie halo zón, správne výslekdy overené pomocou -v,
+výpočet priemernej hodnoty v prostrednom stĺpci (Reduce) prekrytie komunikácie a výpočtu. 
+
+Pararelná verzia je rýchlejšia ako sekvenčná, bohužiaľ, s narastajúcim počtom sa v mojom riešení nezmenšuje čas potrebný na výpočet (8, 16 sa čas zmenšuje, pre viac ako 16 už nie). Nechápem čím 
+to je. Kód som ukazoval aj spolužiakom, ktorý to majú celé, ale žiadu chybu nevideli. Z toho dôvodu som neodovzdal grafy, pretože behom 1 hodiny sa skript na generovanie nevyhodnotil a spúštanie v produkčnom móde už nefunguje, píše, že sme vyčerpalivoľné minúty... Keďže nie je dosiahnutá požadovaná efektivita, tak implementovať verziu s OMP nemalo zmysel...

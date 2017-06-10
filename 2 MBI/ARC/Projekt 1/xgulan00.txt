@@ -1,0 +1,12 @@
+1.	Podľa grafu je možné vidieť, že škálovanie na malých doménach je o niečo horšie ako na veľkých doménach.
+	Na väčších doménach sa zvyšovaním počtu vlákien znižuje čas jednej iterácie intenzívnejšie ako pri menších doménach.
+	Tento jav je spôsobený tým, že s rastúcou úlohou klesá čas kedy pracuje jedno vlákno v Gustafsonovom zákone.
+	Rozdiel medzi prekrývanou a neprekrývanou verziou je ten, že pri malom počte jadier neprekrývaná verzia spracuje iteráciu rýchlejšie, 
+	pretože tu nie je réžia okolo ako v prípade prekrývajúcej verzie.
+	S narastajúcim počtom jadier (pri určitom počte jadier) sa to avšak postupne vymení a prekrývaná verzia začne mať zmysel a spracuje iteráciu rýchlejšie.
+2. 	Optimálna hustota zápisu pre home adresár: -w 5 	Rýchlosť pre home adresár: ~1800 Mb/s
+	Optimálna hustotá zápisu pre ram disk: -w 5 	Rýchlosť pre ram disk: ~1800 Mb/s
+	Hodnoty boli získané po niekoľko X-experimentoch a časy behov sa v líšil niekedy v desatinach sekúnd. 
+	Tu uvedená hodnota rýchlosti je skôr priemerná. Pritom sa hodnoty zápisu na ram disk a do home nedali nejak významnejšie odlíšiť.
+	Tak isto aj parameter -w bol získaný po X experimentoch, a hodnoty menšie ako 5, teda 4,3,2... už o niečo spomalovali rýchlosť behu.
+	Napr. pri hodnote -w 4 bolo spomalenie už o nejaké 1-2 sekundy, pri 3,2,1 ale už ovela väčšie.

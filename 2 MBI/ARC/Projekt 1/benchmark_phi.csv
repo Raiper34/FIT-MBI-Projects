@@ -1,0 +1,13 @@
+domainSize;nIterations;nThreads;diskWriteIntensity;airflow;materialFile;simulationMode;simulationOutputFile;avgColumnTemperature;totalTime;iterationTime
+256;39062;60;10;0.001000;phi_playground/tmp_material.h5;;par1;70.106506;8.698897e+00;2.226946e-04
+256;39062;120;10;0.001000;phi_playground/tmp_material.h5;;par1;70.106506;1.090347e+01;2.791324e-04
+256;39062;240;10;0.001000;phi_playground/tmp_material.h5;;par1;70.106506;9.147981e+00;2.341913e-04
+512;19531;60;10;0.001000;phi_playground/tmp_material.h5;;par1;38.242645;1.201933e+01;6.153977e-04
+512;19531;120;10;0.001000;phi_playground/tmp_material.h5;;par1;38.242649;1.188437e+01;6.084873e-04
+512;19531;240;10;0.001000;phi_playground/tmp_material.h5;;par1;38.242649;1.191994e+01;6.103088e-04
+1024;9765;60;10;0.001000;phi_playground/tmp_material.h5;;par1;26.587175;4.546170e+01;4.655576e-03
+1024;9765;120;10;0.001000;phi_playground/tmp_material.h5;;par1;26.587175;3.255319e+01;3.333660e-03
+1024;9765;240;10;0.001000;phi_playground/tmp_material.h5;;par1;26.587175;2.363902e+01;2.420791e-03
+2048;4882;60;10;0.001000;phi_playground/tmp_material.h5;;par1;22.343246;9.445069e+01;1.934672e-02
+2048;4882;120;10;0.001000;phi_playground/tmp_material.h5;;par1;22.343246;7.508855e+01;1.538069e-02
+2048;4882;240;10;0.001000;phi_playground/tmp_material.h5;;par1;22.343246;4.295660e+01;8.798976e-03
