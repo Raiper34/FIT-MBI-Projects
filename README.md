@@ -28,7 +28,7 @@ PBI Uloha 1 - 7/8
 PBI Uloha 2 - 8/8  
 PBI Uloha 3 - 4/8  
 SFC Vizualizácia Mandelbrotovej množiny - 27/27  
-THE Teória hier a princípy rozhodovania v spoločenských situáciach 35/40  
+THE Teória hier a princípy rozhodovania v spoločenských situáciach - 35/40  
 ZZN Databáza reštaurácií - 34/34  
 BIS Projekt 1 Mystery of BIS - 7/7  
 BIS Projekt 2 Detekcia spamu - 4/8  
