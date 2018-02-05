@@ -1,0 +1,5 @@
+V súbore commands.txt sa nachádzajú príkazy do Pymolu ku každej úlohe. 
+Vždy tam je príkaz delete all, aby sa pred vykonaním úlohy zmazalo všetko čo tam bolo pred tým.
+Úloha 1 je vytvorená iba za pomoci pymol príkazov.
+Úloha 2 je vytvorená za pomoci jednoho príkazu pymol.
+Úloha 3 je naskriptovaná v python 2.7 a samotné vykonanie skriptu nejaký čas trvá (pár sekúnd až minútu), keďže sa prechádzajú a počítajú vzdialenosti medzi všetkými atómami.

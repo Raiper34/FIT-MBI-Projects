@@ -24,9 +24,9 @@ KKO Konverzia obrazového formátu GIF na BMP - 29/30
 
 3 MBI - Tretí semester
 ------
-PBI Uloha 1 - 7/8  
-PBI Uloha 2 - 8/8  
-PBI Uloha 3 - 4/8  
+PBI Úloha 1 - 7/8
+PBI Úloha 2 - 8/8
+PBI Úloha 3 - 4/8
 SFC Vizualizácia Mandelbrotovej množiny - 27/27  
 THE Teória hier a princípy rozhodovania v spoločenských situáciach - 35/40  
 ZZN Databáza reštaurácií - 34/34  

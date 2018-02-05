@@ -1,0 +1,17 @@
+1. Najprv som pomocou balíka Biomart získal pozície všetkıch HOX genov èloveka.
+Ak sa napr gen HOXA1 nachádzal v zozname viac krát, tak som zobral iba najdlhší. 
+Tento vıber som robil pomocou kninice dplyr. 
+Pomocou balíka ggplot, som zobrazil histogram dåok. (viz. súbor histogram_dlzok.png)
+
+2. Potom som analyzoval kadú sekvenciu ta, e pre kadú pozíciu v sekvencií som zistil,
+ako je ïaleko od najblišieho dinukleotidu CG a túto informáciu som vyniesol do grafu. 
+(viz. súbor analyza.png)
+
+3. Dáta o HOX genoch som importoval do štruktúry GRanges a následne som sekvenciue vyzualizoval
+nástrojom GViz. (viz. súbor vizualizacia.png)
+
+Poznámky: Osobne si nemyslím, e vizualizacia.png je správne, avšak napriek tomu, e Granges obsahuje
+správne dáta som dostával, vdy ten dnaı obrázok. 
+Od bodu 2 som zaèal pracova so súborom hgTables.txt, ktorı som získal z UCS Genome table browser,
+starı kód som v zdorjovom súbore script.r nechal zakomentovanı, aby bolo vidie ako som najprv dostával 
+dáta z internetu k sebe.  

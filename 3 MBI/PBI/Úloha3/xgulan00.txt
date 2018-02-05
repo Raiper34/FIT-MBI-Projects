@@ -1,0 +1,46 @@
+Postup:
+1. najprv som stiahol FASTQ subor zo stranky https://trace.ncbi.nlm.nih.gov/Traces/sra/?cmd=dload&run_list=SRR3102614&format=fastq , mal by fungovat aj ./fastq-dump SRR3102614
+2. ziskal som FASTA subor z cviceni
+3. vytvoril som index
+bowtie2-build ref.fasta dna.fasta.index
+alebo
+mkdir star
+STAR --runMode genomeGenerate --genomeDir star/ --genomeFastaFiles ref.fasta
+4. Vytvoril som SAM subor
+bowtie2 --mp 5 -k 1 --no-unal -x dna.fasta.index -U sra_data.fastq -S sam_maped_sra.sam
+alebo
+STAR --genomeDir star/ --readFilesIn sra_data.fastq --outFileNamePrefix sam_mapped_sra.sam
+5. Previedol som SAM na BAM
+samtools view -bS sam_mapped_sra.sam -o bam_sra_data.bam
+6. Ziskal som statistiky 
+                          Number of input reads |	10085912
+                      Average input read length |	150
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	12934
+                        Uniquely mapped reads % |	0.13%
+                          Average mapped length |	138.90
+                       Number of splices: Total |	10842
+            Number of splices: Annotated (sjdb) |	0
+                       Number of splices: GT/AG |	8036
+                       Number of splices: GC/AG |	467
+                       Number of splices: AT/AC |	2
+               Number of splices: Non-canonical |	2337
+                      Mismatch rate per base, % |	4.95%
+                         Deletion rate per base |	0.09%
+                        Deletion average length |	1.43
+                        Insertion rate per base |	0.08%
+                       Insertion average length |	1.61
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	6283
+             % of reads mapped to multiple loci |	0.06%
+        Number of reads mapped to too many loci |	93
+             % of reads mapped to too many loci |	0.00%
+                                  UNMAPPED READS:
+       % of reads unmapped: too many mismatches |	0.00%
+                 % of reads unmapped: too short |	10.82%
+                     % of reads unmapped: other |	88.99%
+
+7. Poznamky: Primarne som pracoval so STAR, ale skusal som aj tu spomenuty bowtie2 a aj tophat
+Vysledny BAM je mozne stiahnut z https://drive.google.com/open?id=1jxS0QSxu3ZoRxJE1hN8Dkc65NPUqRBxD kedze subory vo WISe su obmedzene na 2MB a tento subor ma 2.4MB aj po komprimacii
+
+

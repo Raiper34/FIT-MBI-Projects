@@ -1,0 +1,29 @@
+﻿﻿#PBI Homework NO. 2
+#@author: Filip Gulan
+#@mai: xgulan00@stud.fit.vutbr.cz
+#@date: 22.11.2017
+
+#Task1
+delete all
+fetch 3g0b
+color blue, all
+select cysteine, resn cys
+color yellow, cysteine
+select brg, CYS/SG and bound_to CYS/SG
+color orange, brg
+dist conts, CYS/SG, CYS/SG, 2.5
+color orange, conts
+label brg, "(%s)" % (resi)
+
+#Task2
+delete all
+fetch 2w6k
+centerofmass 2w6k
+
+#Task3
+delete all
+fetch 1bl8
+color green, all
+run task3.py
+minmax 1bl8
+
