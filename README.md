@@ -37,4 +37,6 @@ TAMa uCoaching - 59/70
 
 4 MBI - Štvrtý semester
 ------
+PIS Informačný system hotelovej recepcie https://github.com/Raiper34/PIS-Frontend  
+WAP Dynamická tabuľka - 30/30  
 
