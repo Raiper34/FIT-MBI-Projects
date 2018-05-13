@@ -1,0 +1,24 @@
+/**
+ * WAP Project - Dynamic table (element of page)
+ * @Author: Filip Gulan
+ * @Mail: xgulan00@stud.fit.vutbr.cz
+ * @Date: 16.4.2018
+ * @Name: style.css
+ * @Description: Only for better looking table
+ */
+
+table, th, td {
+  border: 2px solid #bdbdbd ;
+}
+
+th, td {
+  padding: 3px 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, tfoot > tr {
+  background-color: #e0e0e0;
+}

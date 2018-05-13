@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WAP návod</title>
+  <style>
+    code {
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      border-left: 5px solid #2196f3;
+      color: #666;
+      page-break-inside: avoid;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      max-width: 100%;
+      overflow: auto;
+      padding: 10px 15px;
+      display: block;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h1>WAP Projekt - Dynamická tabuľka (prvok stránky)</h1>
+  <h2>Návod</h2>
+  <p>
+    Pre použitie knižnice je potrebné vložiť skript do HTML stránky.
+  </p>
+  <code>&lt;script src="dynamic-table-lib.js"&gt;&lt;/script&gt;</code>
+  <p>
+    Následne je nutné pridať danej tabuľke id.
+  </p>
+  <code>
+    &lt;table id="dynamic-table-1"&gt;<br>
+    ... <br>
+    &lt;/table&gt;<br>
+  </code>
+  <p>
+    Nakoniec je nutné spustiť funkciu na vytvorenie dynamickej tabulky, ktorá ako svoj prvý parameter berie <i>id</i> tabuľky, ktorá sa má stať dynamickou.
+  </p>
+  <code>
+    &lt;script type="text/javascript"&gt; <br>
+      makeTableDynamic('dynamic-table-1'); <br>
+    &lt;/script&gt; <br>
+  </code>
+  <p>
+    Radenie a filtrovanie prebieha na prvom tBody elemente. V prípade, že tabuľka obsahuje tHead element, tak funkcia pridá filtre do prvého riadku tohoto elementu, v opačnom prípade je tHead element a riadok vytvorený programovo knižnicou. Tvorca stránky môže zvoliť, ako sa budú zoraďovať dáta v tabuľke podľa stĺpca tabuľky, či ako čísla, alebo ako reťazce a to tak, že môže pridať v prvom riadku elementu tHead bunkám atribút <i>data-type</i> s hodnotou buď <i>string</i>, alebo <i>number</i>, pričom východzia hodnota je <i>string</i>.
+  </p>
+  <code>
+    ...
+    &lt;thead&gt; <br>
+    &lt;tr&gt; <br>
+    &lt;th data-type="string"&gt;Name&lt;/th&gt; <br>
+    &lt;th data-type="number"&gt;Age&lt;/th&gt; <br>
+    &lt;/tr&gt; <br>
+    &lt;/thead&gt; <br>
+    ...
+  </code>
+  <h2>Autor</h2>
+  <p>Filip Gulán (xgulan00@stud.fit.vutbr.cz)</p>
+</body>
+</html>

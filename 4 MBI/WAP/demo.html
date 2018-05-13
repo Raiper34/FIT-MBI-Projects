@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WAP</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>WAP Projekt demonštrácia - Dynamická tabuľka (prvok stránky)</h1>
+<h2>Prvá tabuľka</h2>
+<p>
+  Stĺpec Age sa zoraďuje ako číslo, tabuľka je s tHead a tFoot (do existujúcej tHead prvého riakdu vloží filtre a radenie)
+</p>
+<table id="dynamic-table-1">
+  <thead>
+    <tr>
+      <th data-type="string">
+        Firstname
+      </th>
+      <th data-type="string">
+        Lastname
+      </th>
+      <th data-type="number">
+        Age
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Filip</td>
+      <td>Gulan</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>Marek</td>
+      <td>Marusic</td>
+      <td>101</td>
+    </tr>
+    <tr>
+      <td>Honza</td>
+      <td>Herec</td>
+      <td>1001</td>
+    </tr>
+    <tr>
+      <td>Michal</td>
+      <td>Burg</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Veronika</td>
+      <td>Linkova</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Alexandra</td>
+      <td>Fulova</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Katarina</td>
+      <td>Nein</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Ondrej</td>
+      <td>Sixs</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>Firstname</td>
+      <td>Lastname</td>
+      <td>Age</td>
+    </tr>
+  </tfoot>
+</table>
+
+<h2>Druhá tabuľka</h2>
+<p>
+  Stĺpec Age sa zoraďuje ako reťazec, tabuľka je bez tHead a bez tFoot (tHead vytvorí knižnica a dá do nej filtre a radenie)
+</p>
+<table id="dynamic-table-2">
+  <tr>
+    <td>Filip</td>
+    <td>Gulan</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Marek</td>
+    <td>Marusic</td>
+    <td>101</td>
+  </tr>
+  <tr>
+    <td>Honza</td>
+    <td>Herec</td>
+    <td>1001</td>
+  </tr>
+  <tr>
+    <td>Michal</td>
+    <td>Burg</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Veronika</td>
+    <td>Linkova</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Alexandra</td>
+    <td>Fulova</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Katarina</td>
+    <td>Nein</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Ondrej</td>
+    <td>Sixs</td>
+    <td>25</td>
+  </tr>
+</table>
+
+<h2>Tretia tabuľka</h2>
+<p>
+  Statická (nevolá sa na ňu funkcia)
+</p>
+<table id="static-table-3">
+  <tr>
+    <th>
+      Firstname
+    </th>
+    <th>
+      Lastname
+    </th>
+    <th>
+      Age
+    </th>
+  </tr>
+  <tr>
+    <td>Filip</td>
+    <td>Gulan</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Marek</td>
+    <td>Marusic</td>
+    <td>101</td>
+  </tr>
+  <tr>
+    <td>Honza</td>
+    <td>Herec</td>
+    <td>1001</td>
+  </tr>
+  <tr>
+    <td>Michal</td>
+    <td>Burg</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Veronika</td>
+    <td>Linkova</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Alexandra</td>
+    <td>Fulova</td>
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>Katarina</td>
+    <td>Nein</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td>Ondrej</td>
+    <td>Sixs</td>
+    <td>25</td>
+  </tr>
+</table>
+
+<script src="dynamic-table-lib.js"></script>
+<script type="text/javascript">
+  makeTableDynamic('dynamic-table-1');
+  makeTableDynamic('dynamic-table-2');
+</script>
+</body>
+</html>
